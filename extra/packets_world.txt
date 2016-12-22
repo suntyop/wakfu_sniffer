@@ -1,0 +1,31 @@
+#Ce fichier est à renommer "packets.txt" et à déplacer dans le dossier "config". Uniquement pour la partie "world".
+
+7 Version du client
+8 Version du serveur
+110 Paquet inutile
+525 Message vide. Demande au serveur d'envoyer le paquet 4104
+1025 Resultat de l'authentification
+1033 Version OK
+1034 Clef RSA
+1202 Resultat de la selection du monde. Echec/succes. Paquet non compris pour le moment.
+1213 Envoi du tocken au serveur
+13001 Demande la langue parlee (francais, anglais etc)
+2048 Liste des personnages
+2049 ID du personnage selectionne envoye au serveur
+2050 Resultat de la selection du personnage (Echec/succes)
+2063 Envoi au client de la date (synchronisation du calendrier)
+2067 Configuration du serveur
+2069 Slots supplementaires (pour la liste des persos)
+2077 Liste des compagnons ? Paquet non compris pour le moment.
+2078 ID du compagnon (animalier) ? Paquet non compris pour le moment.
+2079 Envoi/Verification du tocken
+3144 Liste d'amis
+3146 Liste des comptes bloques
+3222 Verification des droits moderateurs sur le compte
+4098 Verification de l'abonnement et d'eventuels droits supplementaires
+4118 Changement de direction d'un individu sur la carte
+4124 Sante du personnage
+4125 Position x et y du personnage a l'entree sur la carte
+4127 Nouvelles positions d'un individu sur la carte
+5300 Relatif aux items
+9504 Temps/Jour/Nuit 
