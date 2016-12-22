@@ -1,4 +1,4 @@
-#Ce fichier est à renommer "packets.txt" et à déplacer dans le dossier "config".
+#Ce fichier est à renommer "packets.txt" et à déplacer dans le dossier "config". Uniquement pour la partie "authentification".
 
 7 Version du client
 8 Version du serveur
