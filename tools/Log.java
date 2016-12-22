@@ -1,19 +1,28 @@
-package wakfuSniffer;
+package wakfuSniffer.tools;
 
-import wakfuSniffer.tools.Log;
-
-public class Main {
-
-	public static void main(String[] args) {
-		
-		Log.writeLogDebugMessage("Sniffer développé par Suntyop et destiné au jeu WAKFU");
-		Log.writeLogDebugMessage("Vous devez être connecté à Internet pour utiliser ce programme");
-		Log.writeLogDebugMessage("Initialisation de la liste des paquets");
-		
-		Log.writeLogDebugMessage("Initialisation du proxy d'identification");
-		new InitServAuthSocket();
-		
+public class Log {
 	
+	public Log()  { }
+	
+	public static void writeLogDebugMessage (String msg)
+	{
+		System.out.println("--- "+ msg +" ---");
 	}
+	
+	public static void writeLogCTSMessage (String msg)
+	{
+		System.out.println("Client->Serveur : "+ msg);
+	}
+	public static void writeLogSTCMessage (String msg)
+	{
+		System.out.println("Serveur->Client : "+ msg);
+	}
+	
+	/*
+	public void writeLogPacketMessage (Object msg)
+	{
+		
+	} 
+	*/
 
 }
