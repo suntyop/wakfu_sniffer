@@ -1,0 +1,11 @@
+#Ce fichier est à renommer "packets.txt" et à déplacer dans le dossier "config".
+
+7 Version du client
+8 Version du serveur
+110 Paquet inutile
+1026 Identifiants cryptés avec la clef privÈe RSA
+1027 Résultat de l'authentification (echec succès)
+1033 Version OK
+1034 Clef RSA
+1035 Demande la liste des serveurs
+1036 Liste des serveurs
